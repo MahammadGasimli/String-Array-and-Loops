@@ -1,4 +1,4 @@
-package instructor.copy10;
+package Azar;
 
 public class Practice {
 

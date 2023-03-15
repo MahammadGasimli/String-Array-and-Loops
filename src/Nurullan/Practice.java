@@ -1,4 +1,4 @@
-package instructor.copy;
+package Nurullan;
 
 public class Practice {
 

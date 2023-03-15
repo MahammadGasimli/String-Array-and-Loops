@@ -1,4 +1,4 @@
-package instructor.copy12;
+package Faramaz;
 
 public class Practice {
 
