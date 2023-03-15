@@ -1,4 +1,4 @@
-package instructor.copy16;
+package Mahammad;
 
 public class Practice {
 
