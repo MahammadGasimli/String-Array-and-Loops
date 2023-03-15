@@ -1,4 +1,4 @@
-package instructor.copy15;
+package Serhat;
 
 public class Practice {
 
