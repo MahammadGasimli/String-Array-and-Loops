@@ -1,4 +1,4 @@
-package instructor.copy18;
+package Salih;
 
 public class Practice {
 
