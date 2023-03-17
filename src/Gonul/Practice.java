@@ -1,4 +1,4 @@
-package instructor.copy19;
+package Gonul;
 
 public class Practice {
 
