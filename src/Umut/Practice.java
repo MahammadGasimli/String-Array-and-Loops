@@ -1,4 +1,4 @@
-package instructor.copy3;
+package Umut;
 
 public class Practice {
 
