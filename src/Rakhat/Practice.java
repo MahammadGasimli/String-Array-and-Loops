@@ -1,4 +1,4 @@
-package instructor.copy2;
+package Rakhat;
 
 public class Practice {
 
