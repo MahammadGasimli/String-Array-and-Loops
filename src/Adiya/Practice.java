@@ -1,4 +1,4 @@
-package instructor.copy6;
+package Adiya;
 
 public class Practice {
 
