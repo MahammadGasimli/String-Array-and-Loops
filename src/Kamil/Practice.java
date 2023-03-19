@@ -1,4 +1,4 @@
-package instructor.copy5;
+package Kamil;
 
 public class Practice {
 
