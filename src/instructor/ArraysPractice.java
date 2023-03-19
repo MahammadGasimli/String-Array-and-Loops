@@ -11,6 +11,8 @@ public class ArraysPractice {
 		int[] nums = { 1, 2, 3 };
 		
 		System.out.println(Arrays.toString(nums));
+		
+		// This is nice!
 	}
 
 }
