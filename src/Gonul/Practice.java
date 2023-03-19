@@ -6,6 +6,8 @@ public class Practice {
 		System.out.println("Hello yoll students");
 		System.out.println("Nice to meet you");
 		System.out.println("test");
+		System.out.println("hi");
+		
 
 	}
 
