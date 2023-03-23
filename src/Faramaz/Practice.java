@@ -3,9 +3,9 @@ package Faramaz;
 public class Practice {
 
 	public static void main(String[] args) {
-		System.out.println("Hello yoll students");
-		System.out.println("Nice to meet you guys ");
-System.out.println("Hi guys");
+		System.out.println("Hello guys.how are you ?");
+		System.out.println("Hi  how are you");
+		System.out.println("hello");
 		
 		
 	}
