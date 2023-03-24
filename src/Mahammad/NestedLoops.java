@@ -63,7 +63,6 @@ public class NestedLoops {
 		}
 		System.out.println("The minimum number in the Array is " + min);
 		System.out.println("The maximum number in the Array is " + max);
-
 		
 		
 		
