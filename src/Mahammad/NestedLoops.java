@@ -18,9 +18,9 @@ public class NestedLoops {
 			}
 		}
 		
-//		Print all the values of below array in using 
-//		nested for loops
-//		nested for each loop
+////		Print all the values of below array in using 
+////		nested for loops
+////		nested for each loop
 
 		
 		String apps[][] = { 
@@ -47,19 +47,22 @@ public class NestedLoops {
 				System.out.println(apps[a][j]);
 			}
 		}
+		System.out.println("");
+//-------------------- min/max number in Array ----------------- 		
+		int [] tempArray = {23, 44, 0, 12, 99, 4, 124};
 		
-		int [] tempArray = {23, 44, 12, 99, 4};
-		
-		Arrays.sort(tempArray);
-		
-		System.out.println(tempArray[0]);
-		for(int i = 0; i<tempArray.length; i++) {
-			if(i == 0) {
-			System.out.println(tempArray[i]);
+		int max = tempArray[0];
+		int min = tempArray[0];
+		for(int i = 1; i<tempArray.length; i++) {
+			if(min > tempArray[i]) {
+				min = tempArray[i];
 			}
-			
+			if(max < tempArray[i]) {
+				max = tempArray[i];
+			}
 		}
-		
+		System.out.println("The minimum number in the Array is " + min);
+		System.out.println("The maximum number in the Array is " + max);
 
 		
 		
