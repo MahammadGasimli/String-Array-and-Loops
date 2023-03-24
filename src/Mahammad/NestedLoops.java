@@ -6,17 +6,17 @@ public class NestedLoops {
 
 	public static void main(String[] args) {
 		
-//		String [][] states = {
-//				{"Virginia", "New York", "California"},
-//				{"Texas", "Kansas"}
-//				};
-//		
-//		for(String[] state : states) {
-//			
-//			for(String eachStates : state) {
-//				System.out.println(eachStates);
-//			}
-//		}
+		String [][] states = {
+				{"Virginia", "New York", "California"},
+				{"Texas", "Kansas"}
+				};
+		
+		for(String[] state : states) {
+			
+			for(String eachStates : state) {
+				System.out.println(eachStates);
+			}
+		}
 		
 //		Print all the values of below array in using 
 //		nested for loops
@@ -40,13 +40,27 @@ public class NestedLoops {
 		}
 		
 //------------- for loop------------------------		
-		int i = 0;
-		for (i = 0; i<apps.length; i++) {
+		int a = 0;
+		for (a = 0; a<apps.length; a++) {
 			System.out.println("");
-			for(int j = 0; j<apps[i].length; j++) {
-				System.out.println(apps[i][j]);
+			for(int j = 0; j<apps[a].length; j++) {
+				System.out.println(apps[a][j]);
 			}
 		}
+		
+		int [] tempArray = {23, 44, 12, 99, 4};
+		
+		Arrays.sort(tempArray);
+		
+		System.out.println(tempArray[0]);
+		for(int i = 0; i<tempArray.length; i++) {
+			if(i == 0) {
+			System.out.println(tempArray[i]);
+			}
+			
+		}
+		
+		
 		
 		
 		
