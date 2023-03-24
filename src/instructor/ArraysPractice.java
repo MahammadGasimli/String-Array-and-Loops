@@ -6,13 +6,27 @@ public class ArraysPractice {
 
 	public static void main(String[] args) {
 
-		// Working Directory --> Unstaged --> Staging --commit--> Head --push--> Remote Repo.
+		/*
+		 * Write a program that takes an array of integers and compares them int[]
+		 * tempArray= {23, 44, 12, 99, 4};
+		 * 
+		 * Then prints the smallest one out of them.
+		 */
 
-		int[] nums = { 1, 2, 3 };
-		
-		System.out.println(Arrays.toString(nums));
-		
-		// This is nice!
+		int[] tempArray = { 23, 44, 12, 99, 4 };
+		 int smallest = tempArray[0];
+		 int biggest = smallest;
+		 for (int temp : tempArray) {
+		 if (temp > biggest) {
+		 biggest = temp;
+		 }
+		 if (temp < smallest) {
+		 smallest = temp;
+		 }
+		 }
+		 System.out.println(biggest);
+		 System.out.println(smallest);
+
 	}
 
 }
